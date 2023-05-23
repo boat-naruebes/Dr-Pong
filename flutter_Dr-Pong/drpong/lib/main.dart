@@ -16,18 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Scaffold(
-
-      drawer: SidebarX(
-        controller: SidebarXController(selectedIndex: 0, extended: true),
-        items: const [
-          SidebarXItem(icon: Icons.home, label: 'Home'),
-          SidebarXItem(icon: Icons.search, label: 'Search'),
-        ],
-         
-      ),body: const StructPage()
-    
-    ),
+      home: Scaffold(body: const StructPage()),
     );
   }
 }

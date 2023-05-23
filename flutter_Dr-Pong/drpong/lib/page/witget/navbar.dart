@@ -10,8 +10,17 @@ class Nav extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          TextButton(style: TextButton.styleFrom(fixedSize: const Size(300, 100)), onPressed: () {}, child: Text('test')),
-          TextButton(style: TextButton.styleFrom(fixedSize: const Size(300, 100)), onPressed: () {}, child: Text('test3'))
+          TextButton(
+              style:
+                  TextButton.styleFrom(minimumSize: const Size.fromWidth(300)),
+              onPressed: () {},
+              child: Text('test')),
+          TextButton(
+              //style: TextButton.styleFrom(fixedSize: const Size(300, 100)),
+              style:
+                  TextButton.styleFrom(minimumSize: const Size.fromWidth(300)),
+              onPressed: () {},
+              child: Text('test3'))
         ],
       ),
     ));
