@@ -7,9 +7,9 @@ class Footer extends StatelessWidget {
     return (Stack(
       alignment: Alignment.centerRight,
       children: [
-        Container(color: Color(0xFFfaedee), height: 100),
+        Container(color: Color(0xFFfaedee), height: 80),
         Text(
-          'data',
+          'All right reserve @ 2023 Chanwanich',
         )
       ],
     ));

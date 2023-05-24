@@ -1,6 +1,7 @@
 import 'package:drpong/page/witget/body.dart';
 import 'package:drpong/page/witget/header.dart';
 import 'package:drpong/page/witget/sidebar.dart';
+import 'package:drpong/page/witget/whitebox.dart';
 import 'package:flutter/material.dart';
 import 'package:drpong/page/witget/navbar.dart';
 import 'package:drpong/page/witget/footer.dart';
@@ -15,10 +16,12 @@ class StructPage extends StatelessWidget {
           const Nav(),
           const Head(),
           Expanded(child: const Body()),
-          const Footer(),
+          //const Footer(),
         ],
       ),
-      const SideBar(),
+      const Footer(),
+      const Whitebox(),
+      const SideBar(), 
     ]));
   }
 }
