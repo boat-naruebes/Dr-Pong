@@ -1,3 +1,4 @@
+import 'package:drpong/page/witget/footer.dart';
 import 'package:flutter/material.dart';
 import 'package:drpong/page/struct-page.dart';
 import 'package:drpong/page/witget/whitebox.dart';
@@ -17,7 +18,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: Scaffold(body: const
+      //Whitebox())
       StructPage()),
+      //Footer())
     );
   }
 }

@@ -6,7 +6,7 @@ class Whitebox extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(padding: EdgeInsets.fromLTRB(70, 150, 80, 0), child:  Center(
       child: (Container(
-          color: Colors.amber,
+          color: Colors.white,
          )))
     );
   }

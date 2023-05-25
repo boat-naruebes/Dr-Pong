@@ -15,12 +15,14 @@ class StructPage extends StatelessWidget {
         children: [
           const Nav(),
           const Head(),
+          //const Whitebox(),
           Expanded(child: const Body()),
           //const Footer(),
         ],
       ),
-      const Footer(),
+      
       const Whitebox(),
+      const Footer(),
       const SideBar(), 
     ]));
   }

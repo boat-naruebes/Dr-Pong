@@ -4,14 +4,10 @@ class SideBar extends StatelessWidget {
   const SideBar({super.key});
   @override
   Widget build(BuildContext context) {
-    return (Container(
-        width: 20, // 200
+    return (Stack(children: [Container(
+        width: 50, // 200
         color: Colors.blue,
-        child: Column(
-          children: [
-            
-          ],
-        )));
+        ), Container(color: Colors.red,height: 80, width: 50,)],) );
   }
 }
 
